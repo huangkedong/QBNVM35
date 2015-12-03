@@ -3,3 +3,4 @@ Sublime步骤
 2.将中文语言包放置Default文件夹下
 3.安装Package Control：将Package Control.sublime-package放置在D:\Program Files\Sublime text\Sublime Text 2\Data\Installed Packages路径下，重启就可以安装
 4.wo bu zhidao yao zenme zuo l 
+5.I change it again
