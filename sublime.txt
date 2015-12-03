@@ -1,6 +1,19 @@
 Sublime步骤
 1.从官网下载sublime text 2（安装完成后不要打开，在安装目录下新建Data文件夹，以后安装的插件都会默认安装在这里）
 2.将中文语言包放置Default文件夹下
-3.安装Package Control：将Package Control.sublime-package放置在D:\Program Files\Sublime text\Sublime Text 2\Data\Installed Packages路径下，重启就可以安装
-4.wo bu zhidao yao zenme zuo l 
-5.I change it again
+3.安装Package Control：将Package Control.sublime-package放置在D:\Program Files\Sublime text\Sublime Text 2\Data\Installed Packages路径下，重启就可以安装Package Control
+4.按ctrl+shift+p调出命令行，选择Package Control：install Package,然后搜索git进行安装(同理，亦可安装jade语法高亮)
+5.安装git，前面的ppt已经有过介绍
+6.修改sublime text插件里面的git文件夹下面的Git.sublime-settings配置文件，"git_command": "C:/Ked/Git/bin/git.exe"
+7.在github网站新建库，然后再在本地新建一个同名文件夹。在本地的文件夹里面右击空白处，调用Git Bash here
+8.执行git config --global user.name "username"
+	  git config --global user.email "username@email.com"
+	  git config --global push.default matching
+	  生成密钥，并将密钥添加到Github网站
+	  ssh-keygen -t rsa -C "username@email.com"
+9.git remote add origin git@github.com:benjamin-zuo/Arrow.git 把github网站和本地目录绑定起来
+  git add xxx 将本地文件缓存
+  git commit -m "注释" 提交文件
+  git push -u origin master 推送至github
+10.如果上面的成功了，就可以在sublime text里面进行操作了
+
