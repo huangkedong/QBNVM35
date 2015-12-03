@@ -2,4 +2,4 @@ Sublime步骤
 1.从官网下载sublime text 2（安装完成后不要打开，在安装目录下新建Data文件夹，以后安装的插件都会默认安装在这里）
 2.将中文语言包放置Default文件夹下
 3.安装Package Control：将Package Control.sublime-package放置在D:\Program Files\Sublime text\Sublime Text 2\Data\Installed Packages路径下，重启就可以安装
-4.
+4.wo bu zhidao yao zenme zuo l 
